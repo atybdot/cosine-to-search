@@ -1,0 +1,21 @@
+# dependencies and build output, rebuild with pnpm install
+node_modules/
+dist/
+*.local
+
+# logs and OS files
+*.log
+.DS_Store
+
+# secrets
+.env
+.env.*
+
+# image dataset, about 2300 files. Keep it local, back it up elsewhere.
+implementation/lib/data/images/
+
+# downloaded papers. resources/PAPERS.md has the links.
+resources/papers/
+
+# editor state and plugin binaries, reinstall the plugin in Obsidian
+.obsidian/
