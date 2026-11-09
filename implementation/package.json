@@ -1,0 +1,22 @@
+{
+  "name": "implementation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "watch":"vpx --watch ",
+    "check": "vp check"
+  },
+ 
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2",
+    "vite-plus": "catalog:"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.18.0",
+      "onFail": "download"
+    }
+  }
+}
