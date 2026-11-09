@@ -20,7 +20,7 @@ The exact link or paper section lives in `resources/README.md`. The phases line 
 
 ### 0. A place to put images
 
-Input: done[]().
+Input: done.
 
 Build: a lab repo separate from this folder, with Node 20+, TypeScript, and `@huggingface/transformers`. A `data/images/` folder with 100 images you actually care about. A script that walks the folder and prints size and dimensions.
 
